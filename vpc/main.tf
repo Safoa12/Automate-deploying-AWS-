@@ -22,7 +22,7 @@ resource "aws_subnet" "pb_sn" {
   }
 }
 
-# my securith group
+# my security group
 resource "aws_security_group" "sg" {
     vpc_id = aws_vpc.myvpc.id
     name = "my_sg"
